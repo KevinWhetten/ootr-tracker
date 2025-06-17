@@ -234,7 +234,7 @@ export class ForestChecklistComponent implements OnInit {
       checked: false
     },
   ] as Check[];
-  dungeonSource = '<img src=\x22assets/icons/dungeon.png\x22 style\x22height: 16px;\x22/> ';
+  dungeonSource = '<img src=\x22icons/dungeon.png\x22 style\x22height: 16px;\x22/>';
   child: Era = Era.Child;
   adult: Era = Era.Adult;
 
