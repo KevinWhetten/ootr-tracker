@@ -1,0 +1,13 @@
+<div class="forest-checklist checklist">
+  <h1 class="rounded">Zora's River</h1>
+
+  <app-list [name]="'Zora\'s River'" [list]="riverChecks" [color]="'blue'"></app-list>
+
+  <app-list [name]="'Zora\'s Domain'" [list]="domainChecks" [color]="'blue'"></app-list>
+
+  <app-list [name]="'Zora\'s Fountain'" [list]="fountainChecks" [color]="'blue'"></app-list>
+
+  <app-dungeon-list [name]="dungeonSource + 'Jabu Jabu'" [dungeonChecks]="4" [skullChecks]="4" [color]="'blue'" [era]="child"></app-dungeon-list>
+
+  <app-dungeon-list [name]="dungeonSource + 'Ice Cavern'" [list]="iceCavernChecks" [dungeonChecks]="4" [skullChecks]="3" [color]="'blue'" [era]="adult"></app-dungeon-list>
+</div>

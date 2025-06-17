@@ -1,0 +1,31 @@
+.equipment {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+
+.equipment-row {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.equipment-column {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item {
+  width: 30%;
+  margin: 6.5% 0;
+}
+
+img {
+  width: 30%;
+}

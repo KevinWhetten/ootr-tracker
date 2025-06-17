@@ -1,0 +1,8 @@
+<div class="list" [hidden]="outOfEraFilter()">
+  <h2 class="header {{color}}" [class.rounded]="list.length == 0" [innerHTML]="dungeonSource + 'Ganon\'s Castle'"></h2>
+  <app-check-counter [num]="8" [type]="chest" [name]="'Light Trial'"></app-check-counter>
+  <app-check-counter [num]="2" [type]="chest" [name]="'Spirit Trial'"></app-check-counter>
+  <app-check-counter [num]="2" [type]="chest" [name]="'Shadow Trial'"></app-check-counter>
+  <app-check-counter [num]="2" [type]="chest" [name]="'Water Trial'"></app-check-counter>
+  <app-check-counter [num]="1" [type]="chest" [name]="'Forest Trial'"></app-check-counter>
+</div>

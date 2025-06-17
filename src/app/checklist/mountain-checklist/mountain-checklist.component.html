@@ -1,0 +1,13 @@
+<div class="forest-checklist checklist">
+  <h1 class="rounded">Death Mountain</h1>
+
+  <app-list [name]="'Trail'" [list]="trailChecks" [color]="'red'"></app-list>
+
+  <app-dungeon-list [name]="dungeonSource + 'Dodongo\'s Cavern'" [list]="dodongoChecks" [dungeonChecks]="7" [skullChecks]="5" [color]="'red'"></app-dungeon-list>
+
+  <app-list [name]="'Goron City'" [list]="goronCityChecks" [color]="'red'"></app-list>
+
+  <app-list [name]="'Crater'" [list]="craterChecks" [color]="'red'"></app-list>
+
+  <app-dungeon-list [name]="dungeonSource + 'Fire Temple'" [dungeonChecks]="6" [keyChecks]="9" [skullChecks]="5" [color]="'red'" [era]="adult"></app-dungeon-list>
+</div>

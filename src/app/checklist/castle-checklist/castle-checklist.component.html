@@ -1,0 +1,13 @@
+<div class="forest-checklist checklist">
+  <h1 class="rounded">Hyrule Castle</h1>
+
+  <app-list [name]="'Castle Town'" [list]="townChecks" [color]="'gray'"></app-list>
+
+  <app-list [name]="'Temple of Time'" [list]="templeChecks" [color]="'gray'"></app-list>
+
+  <app-list [name]="'Castle Grounds'" [list]="groundsChecks" [color]="'gray'" [era]="child"></app-list>
+
+  <app-list [name]="'Outside Ganon\'s Castle'" [list]="ganonChecks" [color]="'gray'" [era]="adult"></app-list>
+
+  <app-trials-list></app-trials-list>
+</div>

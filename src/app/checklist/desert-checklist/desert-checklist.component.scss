@@ -1,0 +1,45 @@
+.checklist-container {
+  padding-left: 2rem;
+}
+
+h1 {
+  margin: .5rem 0 0 0;
+  padding-left: .5rem;
+}
+
+h2 {
+  margin: .5rem 0 0 0;
+  padding-left: .5rem;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+.checklist {
+  margin: .5rem 0 0 0;
+  width: 14rem
+}
+
+.forest-checklist {
+  h1 {
+    color: white;
+    background-color: #e56219;
+  }
+}
+
+.list {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.095);
+
+  .check {
+    margin: 0;
+    padding: 0 0 0 .5rem;
+    border: 1px solid lightgray;
+    cursor: pointer;
+  }
+}
+
+.song {
+  font-weight: bold;
+  color: #333333;
+}

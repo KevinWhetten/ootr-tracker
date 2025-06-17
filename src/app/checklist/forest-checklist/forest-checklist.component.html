@@ -1,0 +1,13 @@
+<div class="forest-checklist checklist">
+  <h1 class="rounded">Forest</h1>
+
+  <app-list [name]="'Kokiri Forest'" [list]="kokiriChecks" [color]="'green'"></app-list>
+
+  <app-dungeon-list [name]="dungeonSource + 'Deku Tree'" [list]="dekuTreeChecks" [dungeonChecks]="7" [skullChecks]="4" [color]="'green'" [era]="child"></app-dungeon-list>
+
+  <app-list [name]="'Lost Woods'" [list]="lostWoodsChecks" [color]="'green'"></app-list>
+
+  <app-list [name]="'Sacred Forest Meadow'" [list]="sacredForestMeadowChecks" [color]="'green'"></app-list>
+
+  <app-dungeon-list [name]="dungeonSource + 'Forest Temple'" [dungeonChecks]="3" [keyChecks]="6" [skullChecks]="5" [color]="'green'" [era]="adult"></app-dungeon-list>
+</div>

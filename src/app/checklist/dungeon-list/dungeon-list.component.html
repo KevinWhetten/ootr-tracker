@@ -1,0 +1,15 @@
+<div class="list" [hidden]="outOfEraFilter()">
+  <h2 class="header {{color}}" [class.rounded]="list.length == 0" [innerHTML]="name"></h2>
+  @for (check of list; track check) {
+    @if (!check.checked) {
+      <app-check class="check chest" [check]="check"></app-check>
+    }
+  }
+  <app-check-counter [num]="dungeonChecks" [type]="chest" [name]="'Chests'"></app-check-counter>
+  @if (keyChecks > 0) {
+    <app-check-counter [num]="keyChecks" [type]="key" [name]="'Key Chests'"></app-check-counter>
+  }
+  @if (skullChecks > 0) {
+    <app-check-counter [num]="skullChecks" [type]="skulltula" [name]="'Skulltulas'"></app-check-counter>
+  }
+</div>

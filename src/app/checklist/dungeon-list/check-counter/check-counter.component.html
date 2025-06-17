@@ -1,0 +1,3 @@
+<div class="check" [class.checked]="this.checked" (click)="increaseChecks()" (contextmenu)="reduceChecks($event)">
+  <img src="{{type}}"/>{{current}}/{{num}} {{name}}
+</div>

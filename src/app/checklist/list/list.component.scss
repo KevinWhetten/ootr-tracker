@@ -1,0 +1,53 @@
+h1 {
+  font-size: 16pt;
+}
+
+h2 {
+  margin: .5rem 0 0 0;
+  padding-left: .5rem;
+  font-size: 12pt;
+}
+
+.header {
+  border-radius: 5px 5px 0 0;
+}
+
+.rounded {
+  border-radius: 5px;
+}
+
+img {
+  height: 16px;
+}
+
+.gray {
+  background-color: lightgray;
+}
+
+.red {
+  background-color: #eeaaaa;
+}
+
+.orange {
+  background-color: #FFA466;
+}
+
+.yellow {
+  background-color: #FFF9A6;
+}
+
+.green {
+  background-color: #99dd99;
+}
+
+.blue {
+  background-color: #99ccff;
+}
+
+.purple {
+  background-color: #cc88ff;
+}
+
+.list {
+  box-shadow: 0 2px 3px 0 rgba(0, 0, 0, 0.1), 0 3px 10px 0 rgba(0, 0, 0, 0.095);
+}

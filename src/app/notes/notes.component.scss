@@ -1,0 +1,42 @@
+* {
+  font-size: 10pt;
+}
+
+h2 {
+  font-size: 10pt;
+  margin: 0;
+  padding: 0;
+}
+
+.path-hints {
+  background-color: lightgreen;
+}
+
+.barren-hints {
+  background-color: pink;
+}
+
+.always-hints {
+  background-color: lightblue;
+}
+
+.hints {
+  padding: .5rem 1rem;
+}
+
+.hint {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hint-title {
+  display: flex;
+  justify-content: space-between;
+
+  button {
+    height: 24px;
+    background-color: white;
+    border-color: black;
+    border-radius: 5px;
+  }
+}

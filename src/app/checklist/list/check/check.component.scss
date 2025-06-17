@@ -1,0 +1,29 @@
+﻿img {
+  height: 16px;
+  margin-right: 4px;
+}
+
+label {
+}
+
+.check {
+  margin: 0;
+  padding: 0 0 0 .5rem;
+  border: 1px solid lightgray;
+  cursor: pointer;
+  font-size: 10pt;
+
+  &:hover {
+    background-color: #eeeeee;
+  }
+}
+
+.checked {
+  // display: none;
+  text-decoration: line-through;
+  color: lightgray;
+
+  img {
+    display: none;
+  }
+}

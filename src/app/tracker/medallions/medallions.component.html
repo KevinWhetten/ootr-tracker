@@ -1,0 +1,38 @@
+<div class="items">
+  <div class="medallion-row">
+    <div class="medallion-column1">
+      <img class="medallion" src="{{shadowMedallion}}" alt="icon" (click)="toggleShadowMedallion()" (contextmenu)="toggleDungeon($event, 'shadow')"/>
+      <img class="dungeon" src="{{shadowDungeon}}" alt="dungeon">
+      <img class="medallion" src="{{spiritMedallion}}" alt="icon" (click)="toggleSpiritMedallion()" (contextmenu)="toggleDungeon($event,'spirit')"/>
+      <img class="dungeon" src="{{spiritDungeon}}" alt="dungeon">
+    </div>
+    <div class="medallion-column2">
+      <img class="medallion" src="{{lightMedallion}}" alt="icon" (click)="toggleLightMedallion()" (contextmenu)="toggleDungeon($event,'light')"/>
+      <img class="dungeon" src="{{lightDungeon}}" alt="dungeon">
+      <div class="blank"></div>
+      <img class="medallion" src="{{waterMedallion}}" alt="icon" (click)="toggleWaterMedallion()" (contextmenu)="toggleDungeon($event,'water')"/>
+      <img class="dungeon" src="{{waterDungeon}}" alt="dungeon">
+    </div>
+    <div class="medallion-column1">
+      <img class="medallion" src="{{forestMedallion}}" alt="icon" (click)="toggleForestMedallion()" (contextmenu)="toggleDungeon($event,'forest')"/>
+      <img class="dungeon" src="{{forestDungeon}}" alt="dungeon">
+      <img class="medallion" src="{{fireMedallion}}" alt="icon" (click)="toggleFireMedallion()" (contextmenu)="toggleDungeon($event,'fire')"/>
+      <img class="dungeon" src="{{fireDungeon}}" alt="dungeon">
+    </div>
+  </div>
+
+  <div class="medallion-row top-space">
+    <div class="medallion-column">
+      <img class="stone" src="{{kokiriEmerald}}" alt="icon" (click)="toggleKokiriEmerald()" (contextmenu)="toggleDungeon($event,'kokiri')"/>
+      <img class="dungeon" src="{{kokiriDungeon}}" alt="dungeon">
+    </div>
+    <div class="medallion-column">
+      <img class="stone" src="{{goronRuby}}" alt="icon" (click)="toggleGoronRuby()" (contextmenu)="toggleDungeon($event,'goron')"/>
+      <img class="dungeon" src="{{goronDungeon}}" alt="dungeon">
+    </div>
+    <div class="medallion-column">
+      <img class="stone" src="{{zoraSapphire}}" alt="icon" (click)="toggleZoraSapphire()" (contextmenu)="toggleDungeon($event,'zora')"/>
+      <img class="dungeon" src="{{zoraDungeon}}" alt="dungeon">
+    </div>
+  </div>
+</div>

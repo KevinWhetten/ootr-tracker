@@ -1,0 +1,47 @@
+<div class="filter-container">
+  <h1 class="rounded">Filter</h1>
+
+  <div class="filter-block filter-time">
+    <h2>Time of Day</h2>
+    <div class="filter-option">
+      <input type="checkbox" id="time-day" name="time" (click)="toggleFilter('day')">
+      <label for="time-day">Day</label>
+    </div>
+    <div class="filter-option">
+      <input type="checkbox" id="time-night" name="time" (click)="toggleFilter('night')">
+      <label for="time-night">Night</label>
+    </div>
+  </div>
+
+  <div class="filter-block filter-era">
+    <h2>Era</h2>
+    <div class="filter-option">
+      <input type="checkbox" id="era-child" name="era" (click)="toggleFilter('child')">
+      <label for="era-child">Child</label>
+    </div>
+    <div class="filter-option">
+      <input type="checkbox" id="era-adult" name="era" (click)="toggleFilter('adult')">
+      <label for="era-adult">Adult</label>
+    </div>
+  </div>
+
+  <div class="filter-block filter-available" hidden>
+    <h2>Available Checks</h2>
+    <div class="filter-option">
+      <input type="checkbox" id="items-obtainable" name="available-checks" (click)="toggleFilter('available')">
+      <label for="items-obtainable">Available</label>
+    </div>
+    <div class="filter-option">
+      <input type="checkbox" id="items-unobtainable" name="available-checks" (click)="toggleFilter('unavailable')">
+      <label for="items-unobtainable">Unavailable</label>
+    </div>
+  </div>
+
+  <div class="filter-block filter-completed" hidden>
+    <h2>Completed Checks</h2>
+    <div class="filter-option">
+      <input type="checkbox" id="obtained-items" name="completed-checks" (click)="toggleFilter('completed')">
+      <label for="obtained-items">Show</label>
+    </div>
+  </div>
+</div>

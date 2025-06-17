@@ -1,0 +1,8 @@
+<div class="list" [hidden]="outOfEraFilter()">
+  <h2 class="header {{color}}" [class.rounded]="list.length == 0" [innerHTML]="name"></h2>
+  @for (check of list; track check) {
+    @if (!check.checked) {
+      <app-check class="check chest" [check]="check"></app-check>
+    }
+  }
+</div>

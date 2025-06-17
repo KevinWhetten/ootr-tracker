@@ -1,0 +1,10 @@
+﻿<select name="location" class="item-location-dropdown {{color}}" [(ngModel)]="color">
+  <option [value]="'gray'" class="gray">--- Select One ---</option>
+  @for (location of locations; track locations) {
+    <optgroup label="{{location.name}}" class="black">
+      @for (region of location.regions; track region) {
+        <option [value]="region.color" class="{{region.color}}">{{ region.name }}</option>
+      }
+    </optgroup>
+  }
+</select>

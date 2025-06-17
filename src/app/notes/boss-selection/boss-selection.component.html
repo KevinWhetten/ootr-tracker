@@ -1,0 +1,6 @@
+<select name="boss" class="boss-select {{color}}" [(ngModel)]="color">
+  <option [value]="'gray'" class="gray">--- Select One ---</option>
+  @for (boss of bosses; track boss) {
+    <option [value]="boss.color" class="{{boss.color}}">{{ boss.name }}</option>
+  }
+</select>

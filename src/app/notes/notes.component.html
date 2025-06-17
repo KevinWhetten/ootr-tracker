@@ -1,0 +1,50 @@
+<div class="hints path-hints">
+  <div class="hint-title">
+    <h2>Path Hints</h2>
+    <div>
+      <button (click)="addPathHint()">Add new Hint</button>
+      <button (click)="resetPathHints()">Reset</button>
+    </div>
+  </div>
+  @for (num of getPathHintIteration(); track num) {
+    <div class="hint path-hint">
+      <app-location-selection></app-location-selection>
+      <label>&nbsp; path to &nbsp; </label>
+      <app-boss-selection></app-boss-selection>
+    </div>
+  }
+</div>
+
+<div class="hints barren-hints">
+  <div class="hint-title">
+    <h2>Barren Hints</h2>
+    <div>
+      <button (click)="addBarrenHint()">Add new Hint</button>
+      <button (click)="resetBarrenHints()">Reset</button>
+    </div>
+  </div>
+  @for (num of getBarrenHintIteration(); track num) {
+    <div class="hint barren-hint">
+      <label>Plundering &nbsp; </label>
+      <app-location-selection></app-location-selection>
+      <label>&nbsp; is foolish.</label>
+    </div>
+  }
+</div>
+
+<div class="hints always-hints">
+  <div class="hint-title">
+    <h2>Other Hints</h2>
+    <div>
+      <button (click)="addOtherHint()">Add new Hint</button>
+      <button (click)="resetOtherHints()">Reset</button>
+    </div>
+  </div>
+  @for (num of getOtherHintIteration(); track num) {
+    <div class="hint item-hint">
+      <app-item-location-selection></app-item-location-selection>
+      <label>&nbsp; is a &nbsp; </label>
+      <app-item-selection></app-item-selection>
+    </div>
+  }
+</div>

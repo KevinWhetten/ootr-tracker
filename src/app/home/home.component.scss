@@ -1,0 +1,16 @@
+﻿.home-container {
+  display: flex;
+  flex-direction: row;
+  margin: 0;
+  height: 1250px;
+}
+
+hr {
+  background-color: lightgray;
+  top: 0;
+  right: -3px;
+  width: 8px;
+  height: 100%;
+  cursor: ew-resize;
+  margin: 0
+}

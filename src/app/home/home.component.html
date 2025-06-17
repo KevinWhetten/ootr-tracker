@@ -1,0 +1,10 @@
+<div class="home-container" (mousemove)="resize($event)" (mouseup)="endResize($event)">
+  <div class="flex-column" [style.width.px]="width">
+    <app-tracker [width]="width" class="tracker"></app-tracker>
+
+    <app-notes class="notes"></app-notes>
+  </div>
+  <hr (mousedown)="startResize($event)"/>
+
+  <app-checklist class="checklist"></app-checklist>
+</div>

@@ -1,0 +1,6 @@
+﻿@if (inFilter()) {
+  <div class="check" [class.checked]="this.checked" (click)="toggleCheck()">
+    <img id="icon" src="{{check.type}}" alt="Icon"/>
+    <label for="icon">{{ check.name }}</label>
+  </div>
+}

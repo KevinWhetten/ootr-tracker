@@ -1,0 +1,11 @@
+<div class="forest-checklist checklist">
+  <h1 class="rounded">Kakariko Village</h1>
+
+  <app-list [name]="'Kakariko Village'" [list]="villageChecks" [color]="'purple'"></app-list>
+
+  <app-dungeon-list [name]="dungeonSource + 'Bottom of the Well'" [dungeonChecks]="14" [skullChecks]="3" [color]="'purple'" [era]="child"></app-dungeon-list>
+
+  <app-list [name]="'Graveyard'" [list]="graveyardChecks" [color]="'purple'"></app-list>
+
+  <app-dungeon-list [name]="dungeonSource + 'Shadow Temple'" [dungeonChecks]="8" [keyChecks]="6" [skullChecks]="5" [color]="'purple'" [era]="adult"></app-dungeon-list>
+</div>
